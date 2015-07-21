@@ -4,6 +4,15 @@ smartcanvas-twitter-connector
 Twitter Connector for Smart Canvas
 
 
+#### Building (requires Gradle and Docker)
+
+```bash
+
+gradle clean installDist && docker build -t smartcanvas/twitter-connector .
+
+```
+
+
 #### Running within a docker container
 
 ```bash
